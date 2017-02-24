@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>test runner</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_TEST_RUNNERTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_TEST_RUNNER</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_TEST_RUNNER</FUNCNAME>
+     <INCLUDE>LZFG_TEST_RUNNERU01</INCLUDE>
+     <GLOBAL_FLAG/>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <UPDATE_TASK/>
+     <SHORT_TEXT>test runner</SHORT_TEXT>
+     <REMOTE_BASXML/>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PACKAGE</PARAMETER>
+       <DBFIELD/>
+       <DEFAULT/>
+       <TYPES/>
+       <OPTIONAL/>
+       <REFERENCE/>
+       <CHANGING/>
+       <TYP>STRING</TYP>
+       <CLASS/>
+       <REF_CLASS/>
+       <LINE_OF/>
+       <TABLE_OF/>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING/>
+     <EXPORT/>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RESULTS</PARAMETER>
+       <DBSTRUCT>ZTEST_RESULT</DBSTRUCT>
+       <TYPES/>
+       <OPTIONAL/>
+       <TYP/>
+       <CLASS/>
+       <REF_CLASS/>
+       <LINE_OF/>
+       <TABLE_OF/>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION/>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PACKAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT/>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESULTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP Unit test result</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <DYNPROS/>
+   <CUA>
+    <ADM>
+     <ACTCODE/>
+     <MENCODE/>
+     <PFKCODE/>
+     <DEFAULTACT/>
+     <DEFAULTPFK/>
+     <MOD_LANGU/>
+    </ADM>
+    <STA/>
+    <FUN/>
+    <MEN/>
+    <MTX/>
+    <ACT/>
+    <BUT/>
+    <PFK/>
+    <SET/>
+    <DOC/>
+    <TIT/>
+    <BIV/>
+   </CUA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
