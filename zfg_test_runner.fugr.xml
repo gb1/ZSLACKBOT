@@ -11,48 +11,24 @@
     <item>
      <FUNCNAME>ZFM_TEST_RUNNER</FUNCNAME>
      <INCLUDE>LZFG_TEST_RUNNERU01</INCLUDE>
-     <GLOBAL_FLAG/>
      <REMOTE_CALL>R</REMOTE_CALL>
-     <UPDATE_TASK/>
      <SHORT_TEXT>test runner</SHORT_TEXT>
-     <REMOTE_BASXML/>
      <IMPORT>
       <RSIMP>
        <PARAMETER>PACKAGE</PARAMETER>
-       <DBFIELD/>
-       <DEFAULT/>
-       <TYPES/>
-       <OPTIONAL/>
-       <REFERENCE/>
-       <CHANGING/>
        <TYP>STRING</TYP>
-       <CLASS/>
-       <REF_CLASS/>
-       <LINE_OF/>
-       <TABLE_OF/>
       </RSIMP>
      </IMPORT>
-     <CHANGING/>
-     <EXPORT/>
      <TABLES>
       <RSTBL>
        <PARAMETER>RESULTS</PARAMETER>
        <DBSTRUCT>ZTEST_RESULT</DBSTRUCT>
-       <TYPES/>
-       <OPTIONAL/>
-       <TYP/>
-       <CLASS/>
-       <REF_CLASS/>
-       <LINE_OF/>
-       <TABLE_OF/>
       </RSTBL>
      </TABLES>
-     <EXCEPTION/>
      <DOCUMENTATION>
       <RSFDO>
        <PARAMETER>PACKAGE</PARAMETER>
        <KIND>P</KIND>
-       <STEXT/>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
@@ -65,27 +41,7 @@
     </item>
    </FUNCTIONS>
    <DYNPROS/>
-   <CUA>
-    <ADM>
-     <ACTCODE/>
-     <MENCODE/>
-     <PFKCODE/>
-     <DEFAULTACT/>
-     <DEFAULTPFK/>
-     <MOD_LANGU/>
-    </ADM>
-    <STA/>
-    <FUN/>
-    <MEN/>
-    <MTX/>
-    <ACT/>
-    <BUT/>
-    <PFK/>
-    <SET/>
-    <DOC/>
-    <TIT/>
-    <BIV/>
-   </CUA>
+   <CUA/>
   </asx:values>
  </asx:abap>
 </abapGit>
